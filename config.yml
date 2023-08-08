@@ -1,6 +1,6 @@
 baseURL: "https://main.d3urlaxf7q7z07.amplifyapp.com/"
 languageCode: "en-us"
-title: guilhermecosmwe
+title: guilhermecosme.io
 theme: PaperMod
 
 params:
@@ -16,7 +16,7 @@ params:
     subtitle: "Software Engineer, Cloud DevOps, AI Enthusiast"  
     buttons:
       - { name: Blog, url: "/posts" }
-      #- { name: About, url: "/about" }
+      - { name: About, url: "/about" }
   
   socialIcons: # optional
     - { name: "Github", url: "https://github.com/guillecosme" }
