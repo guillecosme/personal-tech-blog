@@ -1,0 +1,24 @@
+baseURL: "https://main.d3urlaxf7q7z07.amplifyapp.com/"
+languageCode: "en-us"
+title: guilhermecosmwe
+theme: PaperMod
+
+params:
+
+  defaultTheme: dark
+  disableThemeToggle: true
+  ShowShareButtons: true
+  ShowReadingTime: true
+  
+  profileMode:
+    enabled: true
+    title: "Guilherme Cosme" # optional default will be site title
+    subtitle: "Software Engineer, Cloud DevOps, AI Enthusiast"  
+    buttons:
+      - { name: Blog, url: "/posts" }
+      #- { name: About, url: "/about" }
+  
+  socialIcons: # optional
+    - { name: "Github", url: "https://github.com/guillecosme" }
+    - { name: "LinkedIn", url: "https://www.linkedin.com/in/cosmeguilherme/" }
+
