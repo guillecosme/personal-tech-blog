@@ -3,6 +3,14 @@ languageCode: "en-us"
 title: Cloud Computing | Cosme
 theme: PaperMod
 
+
+menu:
+  main:
+    - identifier: search
+      name: Pesquisar
+      url: /search/
+      weight: 1
+
 params:
 
   defaultTheme: dark
@@ -25,6 +33,7 @@ params:
   socialIcons: # optional
     - { name: "Github", url: "https://github.com/guillecosme" }
     - { name: "LinkedIn", url: "https://www.linkedin.com/in/cosmeguilherme/" }
+    - { name: "email", url: "mailto:contact@guilhermecosme.io" }
 
   assets:
     # disableHLJS: true # to disable highlight.js
@@ -40,6 +49,23 @@ params:
     icon: /ai-100x100.png
     iconHeight: 0
     iconWeight: 75
+
+  #Search Page
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+  # Source: https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-features/#search-page
+  outputs:
+    post:
+      - HTML
+      - RSS
+      - JSON
 
 
   ShowReadingTime: true
