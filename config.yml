@@ -1,6 +1,6 @@
-baseURL: "https://main.d3urlaxf7q7z07.amplifyapp.com/"
+baseURL: "https://guilhermecosme.io"
 languageCode: "en-us"
-title: guilhermecosme.io
+title: Cloud Computing | Cosme
 theme: PaperMod
 
 params:
@@ -13,12 +13,38 @@ params:
   profileMode:
     enabled: true
     title: "Guilherme Cosme" # optional default will be site title
-    subtitle: "Software Engineer, Cloud DevOps, AI Enthusiast"  
+    subtitle: "Software Engineer, Cloud DevSecOps, Entusiasta de Inteligência Artifical"
+    imageUrl: "profile.jpeg"
+    imageWidth: 150
+    imageHeight: 150
+    imageTitle: Guilherme Cosme's profile picture 
     buttons:
       - { name: Blog, url: "/posts" }
-      - { name: About, url: "/about" }
+      - { name: Sobre, url: "/about/me" }
   
   socialIcons: # optional
     - { name: "Github", url: "https://github.com/guillecosme" }
     - { name: "LinkedIn", url: "https://www.linkedin.com/in/cosmeguilherme/" }
 
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "favicon.ico"
+    favicon16x16: "ai-50x50.png"
+    favicon32x32: "ai-50x50.png"
+    apple_touch_icon: "ai-50x50.png"
+    # safari_pinned_tab: "<link / abs url>"
+
+  label:
+    text: "Home"
+    icon: /ai-100x100.png
+    iconHeight: 0
+    iconWeight: 75
+
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: false
