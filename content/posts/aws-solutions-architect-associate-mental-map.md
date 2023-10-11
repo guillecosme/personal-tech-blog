@@ -8,4 +8,6 @@ draft: false
 
 Mapa mental utilizado no programa de mentoria Tech Experts, focado para certificação AWS Solutions Architect Associate
 
+Acesse: [Mapa Mental] (https://mm.tt/app/map/2922984781?t=RSVm5UpZZY)
+
 {{< aws-saa-map >}}
